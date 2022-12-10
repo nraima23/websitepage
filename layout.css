@@ -1,0 +1,56 @@
+<style> 
+*{
+	box-sizing: border-box;
+	font-family: arial, helvetica, sans-serif;
+}
+
+/*style for body tag */
+body {
+	margin:0;
+	font-family: arial, helvetica. sans-serif;
+	background-color: #DCC699;
+}
+/*style for content */
+.content{
+	background-color: yellow;
+	padding: 50px;
+}
+.header {
+	padding: 20px;
+	background-color: #F6E4BB;
+	color: black;
+	position: sticky;
+	text-align: center;
+
+}
+
+/*style for navigation menu */
+.menu {
+	overflow: hidden;
+	background-color: whitesmoke;
+}
+/*style for link menu */
+.meny a {
+	float: left;
+	display: block;
+	color: yellow;
+	text-align: center;
+	padding: 50px 54px;
+	text-decoration: none;
+}
+/*style for hover menu */
+.menu a:hover {
+	background-color: yellow;
+	color: black;
+}
+
+.footer {
+	position:fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: darkred;
+	color: white;
+	text-align: left;
+}
+</style>
